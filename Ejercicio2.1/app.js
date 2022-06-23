@@ -1,8 +1,8 @@
 nombreGuardado = "jesica";
 
-let nombre = prompt("Ingrese un nombre (en minuscula)");
+let nombre = prompt("Ingrese un nombre");
 
-if (nombre == nombreGuardado){
+if (nombreGuardado === nombre.toLowerCase()){
     alert("FUI YO")
 } else {
     alert("YO NO FUI")
